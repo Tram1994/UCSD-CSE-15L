@@ -27,36 +27,36 @@ that will set your name and email globally for your account, assuming your name 
 What is the name of the file where your aliases should be added?
 **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        .gitconfig
 
 5. At this point, you decide that you should set up a GitHub repository to track your changes online (and to show recruiters at career fairs). After setting it up, you get the link to your remote repository at `https://github.com/alan-turing/calendarapp.git`. What command (including all options and arguments) do you use to set this URL as your remote URL, assuming you want to name it `origin`? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git remote add origin https://github.com/alan-turing/calendarapp.git
 
 6. You now want to ignore your configuration files, so that you don't clutter up your repository. What is the name of the file where the file names you want to ignore should go?
 **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        .gitignore
 
 7. Your friend decides that they want to help you with your project, hooray! You tell him to get their own version of the project so they can start working, but they don't know how to do this. Using the github URL from Q5, what command (including all options and arguments) should they use to get the project from GitHub to their local machine? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git clone https://github.com/alan-turing/calendarapp.git
 
 8. Now that they've got the repository, you tell your friend to create their own branch called `reminders` so that they can work on the reminder feature. What command (including all options and arguments) do you tell them to use? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git checkout -b reminders
 
 9. Your friend just pushed their new branch, and you want to take a look at his changes. What command (including all options and arguments) do you use to get the branch from the remote repository onto your local computer? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git pull origin reminders
 
 10. After a while (and a lot more developer contribution), you decide to check the progress on your repository. What command (including all options and arguments) can you use to see the commit history? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git log
 
 11. You continue work on your project, and realize that one of your changes in your main file (called `backend.py`) causes your tests to break. What command (including all options and arguments) can you use to keep all other files the same, but revert that *one* broken file to the previously committed version? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        
 
 12. After a few weeks, you now realize that your local feature branch (`backend_fix`) is woefully out of date with `master`. After running `git checkout master`, `git pull origin master`, and `git checkout backend_fix`, what command (including all options and arguments) do you use to merge the changes from master into your current branch? **(1 point)**
 

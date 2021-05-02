@@ -56,35 +56,38 @@ What is the name of the file where your aliases should be added?
 
 11. You continue work on your project, and realize that one of your changes in your main file (called `backend.py`) causes your tests to break. What command (including all options and arguments) can you use to keep all other files the same, but revert that *one* broken file to the previously committed version? **(1 point)**
 
-        
+        git checkout -- backend.py
 
 12. After a few weeks, you now realize that your local feature branch (`backend_fix`) is woefully out of date with `master`. After running `git checkout master`, `git pull origin master`, and `git checkout backend_fix`, what command (including all options and arguments) do you use to merge the changes from master into your current branch? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git merge master
 
 13. If you don't need branch `backend_fix` anymore, what command (including all options and arguments) do you give to delete branch `backend_fix` *locally*? **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        git branch -d backend_fix
 
 14. You want to perform a `git pull`, but you are unable to because you have local uncommitted changes. However, you don't want to stage and commit your changes since they are unfinished. What is a command (including all options and arguments) you can use to temporarily save your changes in order to satisfy `git pull` without staging and committing?
 
-        YOUR ANSWER GOES HERE
+        git stash
 
 15. Both `git merge` and `git rebase` are used to combine two different branches into one. Please describe the difference between `git merge` and `git rebase`. **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        `git rebase` rewrites the commit history so that there is a straight, linear succession of commits. As such, the user will not be able to tell which commits came from which branch. On the other hand, `git merge` keeps and distinguishes the commit history of both branches.
 
 16. GitHub isn't the only online `git`-based source control management (SCM) system. Name another possible system to use **(1 point)**
 
-        YOUR ANSWER GOES HERE
+        Gitlab
 
 17. What is the purpose of "tagging" a commit? Supposing you have a currently checked out commit, what command (including all options and arguments) is used to create a lightweight tag named "final" on your commit? **(2 points; one per question)**
 
-        YOUR ANSWER GOES HERE
+        The purpose of tagging is to allow developers to more easily navigate and understand commits as they remove the need for a hash code and allow for the naming of commits.
+
+        The command to create the lightweight tag is:
+        git tag final
 
 18. What is a git "conflict", and how are they resolved? **(1 point, half per section)**
 
-        YOUR ANSWER GOES HERE
+        A git conflict is when a merge is attempted but there are conflicting changes/divergences between the two branches. In order to resolve the conflict, the differences between the two branches must be manually resolved by the programmer by editing the conflicting files which display the changes from both branches.
 
 19. Which directory stores all the data necessary for git to keep track of your
     project and its history? **(1 point)**
@@ -95,7 +98,7 @@ What is the name of the file where your aliases should be added?
     * .gitlogs
     * .gitrc
 
-          YOUR ANSWER GOES HERE
+          .git
 
 ## Turnin Procedure:
 Be sure your `hw5.md` file is saved on your 15L account in the directory

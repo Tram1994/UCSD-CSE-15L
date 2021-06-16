@@ -1,0 +1,58 @@
+Receipt item:
+        [1] Cali Burrito        $9.99
+Assign to:
+        [1] Ben Ochoa
+        [2] Gary Gillespie
+        [3] Sravya Balasa
+        [4] Nicole Martindale
+Enter diner to assign: 1
+Assigned Cali Burrito to Ben Ochoa (Total: $9.99)
+
+Receipt item:
+        [2] Lasagna     $12.99
+Assign to:
+        [1] Ben Ochoa
+        [2] Gary Gillespie
+        [3] Sravya Balasa
+        [4] Nicole Martindale
+Enter diner to assign: 2
+Assigned Lasagna to Gary Gillespie (Total: $12.99)
+
+Receipt item:
+        [3] Pasta Carbonara     $13.99
+Assign to:
+        [1] Ben Ochoa
+        [2] Gary Gillespie
+        [3] Sravya Balasa
+        [4] Nicole Martindale
+Enter diner to assign: 3
+Assigned Pasta Carbonara to Sravya Balasa (Total: $13.99)
+
+Receipt item:
+        [4] Margherita Pizza    $15.99
+Assign to:
+        [1] Ben Ochoa
+        [2] Gary Gillespie
+        [3] Sravya Balasa
+        [4] Nicole Martindale
+Enter diner to assign: 4
+Assigned Margherita Pizza to Nicole Martindale (Total: $15.99)
+
+Receipt item:
+        [5] Wine        $14.99
+Assign to:
+        [1] Ben Ochoa
+        [2] Gary Gillespie
+        [3] Sravya Balasa
+        [4] Nicole Martindale
+Enter diner to assign: 1
+Assigned Wine to Ben Ochoa (Total: $24.98)
+
+How much tax is required at your location (%)?  12
+How much tip do you want to add (%)?    11
+
+
+Ben Ochoa owes $31.06
+Gary Gillespie owes $16.15
+Sravya Balasa owes $17.39
+Nicole Martindale owes $19.88

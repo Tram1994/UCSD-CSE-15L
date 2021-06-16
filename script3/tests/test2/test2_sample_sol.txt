@@ -1,0 +1,86 @@
+Receipt item:
+        [1] Chicken Bacon Ranch Pizza   $30.50
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 1
+Assigned Chicken Bacon Ranch Pizza to Azula (Total: $30.50)
+
+Receipt item:
+        [2] New Orleans Jambalaya       $21.25
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 5
+Assigned New Orleans Jambalaya to Katara (Total: $21.25)
+
+Receipt item:
+        [3] Parmesan-Crusted Chicken    $19.95
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 2
+Assigned Parmesan-Crusted Chicken to Legolas (Total: $19.95)
+
+Receipt item:
+        [4] Jumbo Spaghetti and Meatballs       $18.45
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 4
+Assigned Jumbo Spaghetti and Meatballs to Davy Jones (Total: $18.45)
+
+Receipt item:
+        [5] Grilled Chicken Alfredo     $19.45
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 3
+Assigned Grilled Chicken Alfredo to Captain Jack Sparrow (Total: $19.45)
+
+Receipt item:
+        [6] Black Cherry Soda   $6.95
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 2
+Assigned Black Cherry Soda to Legolas (Total: $26.90)
+
+Receipt item:
+        [7] Orange Cream Soda   $6.95
+Assign to:
+        [1] Azula
+        [2] Legolas
+        [3] Captain Jack Sparrow
+        [4] Davy Jones
+        [5] Katara
+Enter diner to assign: 1
+Assigned Orange Cream Soda to Azula (Total: $37.45)
+
+How much tax is required at your location (%)?  8
+How much tip do you want to add (%)?    15
+
+
+Azula owes $46.52
+Legolas owes $33.41
+Captain Jack Sparrow owes $24.16
+Davy Jones owes $22.92
+Katara owes $26.39
